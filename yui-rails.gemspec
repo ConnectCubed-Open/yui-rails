@@ -13,9 +13,9 @@ Gem::Specification.new do |s|
   s.summary       = 'YUI integration with Rails 3.1+'
   s.description   = 'Easy integration of YUI with the Rails asset pipeline.'
   
-  s.authors   = ["Matt Sanders"]
-  s.email     = 'matt@modal.org'
-  s.homepage  = 'https://github.com/nextmat/yui-rails'
+  s.authors   = ["Claes Wallin (韋嘉誠)"]
+  s.email     = 'claes.wallin@greatsinodevelopment.com'
+  s.homepage  = 'https://github.com/clacke/yui-rails'
   
   #s.executables         = []
   s.required_rubygems_version = '>= 1.3.6'
