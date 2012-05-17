@@ -1,4 +1,4 @@
-# -*- encoding: utf-8 -*-
+# -*- mode: ruby; encoding: utf-8 -*-
 lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
 
@@ -26,6 +26,6 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = ["LICENSE"]
   
   # Dependencies, this syntax requires RubyGems > 1.2.0
-  s.add_development_dependency 'rails', '~>3.1'
+  s.add_dependency "railties", ">= 3.2.0", "< 5.0"
 end
 
