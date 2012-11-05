@@ -1,8 +1,8 @@
 module YUI
   module Rails
     
-    VERSION = '0.1.0'
-    YUI_VERSION = '3.3.0'
+    YUI_VERSION = '3.7.3'
+    VERSION = "0.1.1.#{YUI_VERSION}"
     
   end
 end
