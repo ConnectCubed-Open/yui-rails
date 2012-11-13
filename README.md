@@ -51,4 +51,4 @@ Inspired by the [jquery-rails](https://github.com/rails/jquery-rails) gem by Ste
 ## License
 
 Copyright (c) 2011 Matt Sanders. Released under the MIT license.
-Copyright (c) 2012 Claes Wallin. Released under the MIT license.
+Copyright (c) 2012 Trader Analytics Corp. (Hong Kong) Limited. Released under the MIT license.
