@@ -1,11 +1,7 @@
 # -*- mode: ruby; encoding: utf-8 -*-
-lib = File.expand_path('../lib/', __FILE__)
-$:.unshift lib unless $:.include?(lib)
-
-require 'yui/rails/version'
+require File.expand_path('../lib/yui/rails/version', __FILE__)
 
 Gem::Specification.new do |s|
-  
   s.name      = 'yui-rails'
   s.version   = YUI::Rails::VERSION
   s.platform  = Gem::Platform::RUBY
@@ -15,7 +11,7 @@ Gem::Specification.new do |s|
   
   s.authors   = ["Claes Wallin (韋嘉誠)"]
   s.email     = 'claes.wallin@greatsinodevelopment.com'
-  s.homepage  = 'https://github.com/clacke/yui-rails'
+  s.homepage  = 'https://github.com/ConnectCubed-Open/yui-rails'
   
   #s.executables         = []
   s.required_rubygems_version = '>= 1.3.6'
@@ -28,4 +24,3 @@ Gem::Specification.new do |s|
   # Dependencies, this syntax requires RubyGems > 1.2.0
   s.add_dependency "railties", ">= 3.2.0", "< 5.0"
 end
-
